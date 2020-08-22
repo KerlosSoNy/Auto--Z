@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+}
+
+/* Start Cover Of the Page */
+.head_page
+{
+    background-image: url(../pic/wallpaper/b.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 657px;
+}
+/* End Cover Of the Page */
+
+/* Start Logo Paragraph */
+.logo img
+{
+    position: absolute;
+    top: 30%;
+    width: 30%;
+}
+.logo h4
+{
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    font-size: 220%;
+    font-weight: 100;
+    color: gainsboro;
+}
+/* End Head Paragraph */
+
+/* Start Menu */
+
+/* Menu Containts */
+.main_menu
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: 5%;
+}
+nav
+{
+    display: inline-flexbox;
+}
+/* Menu Containts */
+
+/* Start Number */
+nav h3
+{
+    color: gainsboro;
+    position:absolute;
+    top: 4%;
+    left: 88%;
+    font: bold;
+    float: right;
+}
+nav h3:hover
+{
+    color: blue;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+/* End Number */
+
+/* Menu Buttons */
+.main_menu button
+{
+    color: gainsboro;
+    white-space: nowrap;
+    background-color: rgba(43, 43, 43, 0.0);
+    border-color: rgba(43, 43, 43, 0.0);
+    font-size: 22px;
+    margin-left: 6%;
+}
+
+.home-but ,.cars-but ,.services-but ,.pre-agent-but
+{
+   
+    padding: 5px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    font-size: 18px;
+    z-index: 1;
+}
+.cars-but{margin-left: 8px;}
+.pre-agent-but{margin-left: 20px;}
+.services-but{margin-left: 12px;}
+.home , .car , .pre , .serv 
+{
+    font-size: 18px;
+}
+
+.home-but a,.cars-but a,.services-but a,.pre-agent-but a
+{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 12px 16px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.home:hover .home-but ,.car:hover .cars-but, .serv:hover .services-but,.pre:hover .pre-agent-but {
+    display: block;
+    color: red;
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.home:hover button, .home:hover button i,.car:hover button, .car:hover button i, .serv:hover button,.serv:hover button i, .pre:hover button, .pre:hover button i
+{
+    color: red;
+    cursor: pointer;
+    transform: scale(0.9);
+    transform: scaleX((-30deg));
+}
+i
+{
+    color: gainsboro;
+}
+/* End Menu */
