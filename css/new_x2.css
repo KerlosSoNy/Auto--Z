@@ -24,6 +24,10 @@
     top: 30%;
     width: 30%;
 }
+.logo img:hover
+{
+    transform: scale(1.1);
+}
 .logo h4
 {
     position: absolute;
@@ -268,5 +272,170 @@ i
 .dis a:hover
 {
     color: red;
+    cursor: pointer;
+}
+
+/* End Of The New Car */
+
+/* Location */
+.location
+{
+    position: relative;
+    left: -12%;
+    top: -100px;
+    width: 500px;
+    height: 500px;
+    margin:1%;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.location iframe
+{
+    position: absolute;
+    top: 250px;
+    left: -400px;
+    width: 500px;
+    height: 300px;
+    z-index: 2;
+}
+
+.location h1
+{
+    position: relative;
+    top: 25%;
+    left: 34%;
+    z-index: 4;
+}
+.location p
+{
+    font-weight: 700;
+    position: relative;
+    top: 25%;
+    left: 24%;
+    z-index: 5;
+}
+
+.location img
+{
+    position: relative;
+    left: 12%;
+    width: 500px;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+/* End Loctaion */
+
+.foot
+{
+    padding-bottom: 5px;
+    margin-top: 40px;
+    clear: both;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.94);
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.foot img
+{
+    position: relative;
+    left: 2.5%;
+    top: -2%;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}
+
+.foot p
+{
+    position: relative;
+    color: #ACACAC;
+}
+
+.foot img:hover
+{
+    transform: scale(1.1);
+}
+
+.foot hr
+{
+    position: relative;
+    top: 52%;left: -5%;
+    transform: rotate(90deg);
+    width: 260px;
+    border: 1px solid gainsboro;
+}
+
+.email
+{
+    position: relative;
+    left: -34%;
+    top: 82%;
+    z-index: 2;
+}
+.phone
+{
+    color: #ACACAC;
+    position: relative;
+    left: -45.8%;
+    top: 89.5%;
+    z-index: 3;
+}
+
+.foot ul li
+{
+    padding-bottom: 15px;
+    color:#ACACAC;
+    list-style-type: none;
+}
+
+.ul1
+{
+    position: relative;
+    top: 10%;
+    left: -30%;
+}
+
+.ul2
+{
+    position: relative;
+    top: 10%;
+    left: -20%;
+}
+
+.ul1 h1 , .ul2 h1
+{
+    color: #ACACAC;
+    padding-bottom: 15px;
+}
+.foot ul li:hover
+{
+    cursor: pointer;
+    color: red;
+    text-decoration-line: underline;
+}
+.phone:hover
+{
+    color: blue;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.foot i
+{
+    position: relative;
+    top: 50%;
+    left: -10%;
+    font-size: 24px;
+    padding-left: 1.5%;
+}
+
+.foot i:hover
+{
+    color:blue;
     cursor: pointer;
 }
